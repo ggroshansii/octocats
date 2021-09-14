@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Alliance No.1 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Alliance No.1 Light'), url('/css/alliance-no1/Degarism\ Studio\ -\ Alliance\ No.1\ Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Alliance No.2 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Alliance No.2 Light'), url('css/alliance-no1/Degarism\ Studio\ -\ Alliance\ No.2\ Light.woff') format('woff');
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.octodex{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.octocat {
+    display: inline-block;
+    width: 28rem;
+}
+
+.octodex > li:first-child {
+    margin-top: 1.14rem;
+    margin-left: 1.14rem;
+}
+
+.octodex > li:nth-child(2) {
+    margin-top: 1.14rem;
+    margin-left: 1.14rem;
+    margin-right: 1.14rem;
+}
+
+.octodex > li:last-child {
+    margin-top: 1.14rem;
+    margin-right: 1.14rem;
+}
+
+.octocat > a > img {
+    border: 2px solid lightgrey;
+    max-width: 100%;
+    border-radius: 0.3rem;
+}
+
+.image-footer {
+    position: relative;
+    height: 3rem;
+    border-bottom: 2px solid lightgrey;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+}
+
+.image-number {
+    color: lightgray;
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+    top: 0.7rem;
+}
+
+.image-number::before {
+    content: '#';
+}
+
+.image-footer img {
+    display: inline-block;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.image-caption {
+
+    float: right;
+}
+
+.image-caption span, .image-caption a {
+    position: relative;
+    bottom: 0.75rem;
+}
+
+.image-caption a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.image-caption span {
+    color: gray;
+}
+
+.authors {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
+
+.authors img {
+    position: relative;
+    top: 0.8rem;
+
+}
+
+.authors a:last-child img {
+    border: 1px solid green;
+}
