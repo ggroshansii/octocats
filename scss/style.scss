@@ -1,17 +1,4 @@
-@font-face {
-    font-family: 'Alliance No.1 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Alliance No.1 Light'), url('/css/alliance-no1/Degarism\ Studio\ -\ Alliance\ No.1\ Light.woff') format('woff');
-    }
-    
 
-    @font-face {
-    font-family: 'Alliance No.2 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Alliance No.2 Light'), url('css/alliance-no1/Degarism\ Studio\ -\ Alliance\ No.2\ Light.woff') format('woff');
-    }
 
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
 
@@ -47,7 +34,7 @@
 }
 
 .octocat > a > img {
-    border: 2px solid lightgrey;
+    border: 2px solid #cacaca;
     max-width: 100%;
     border-radius: 0.3rem;
 }
@@ -55,7 +42,7 @@
 .image-footer {
     position: relative;
     height: 3rem;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #cacaca;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 900;
 }
